@@ -1,1 +1,54 @@
-
+ body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-family: sans-serif;
+            background: #333;
+        }
+        .searchbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 400px;
+            border: solid 1px white;
+            border-radius: 40px;
+            margin: 0 400px;
+            margin-top: 50px;
+        }
+        input {
+            width: 350px;
+            border: none;
+            outline: none;
+            background: #333;
+            caret-color: white;
+            color: white;
+        }
+        
+        i {
+            color: white;
+        }
+        ::placeholder {
+            color: #666;
+        }
+        .resultbox {
+            width: 400px;
+            height: auto;
+            border-radius: 30px;
+            border: solid 1px white;
+            margin: 0 400px;
+            display: none;
+        }
+        .resultbox ul {
+            padding: 15px 10px;
+            color: white;
+        }
+        .resultbox ul li {
+            list-style: none;
+            border-radius: 3px;
+            padding: 15px 10px;
+            cursor: pointer;   
+        }
+        .resultbox ul li:hover {
+            background: #444;
+        }
